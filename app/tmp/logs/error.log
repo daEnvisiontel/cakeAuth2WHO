@@ -1,0 +1,951 @@
+2015-03-31 16:31:55 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/AppController.php, line 66]
+2015-03-31 16:31:55 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 66, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 66, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:32:21 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:32:21 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:33:22 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakeAuth2/users
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(502): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(464): AuthComponent->constructAuthorize()
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#10 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Users/dannyavery/Desktop/websites/cakeAuth2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-31 16:33:32 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:33:32 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:36:49 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:36:49 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:36:50 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:36:50 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:36:50 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:36:50 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:36:50 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:36:50 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:36:50 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:36:50 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:36:51 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:36:51 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:36:53 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakeAuth2/users
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(502): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(464): AuthComponent->constructAuthorize()
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#10 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Users/dannyavery/Desktop/websites/cakeAuth2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-31 16:37:07 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2/view/1
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-31 16:37:16 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:37:16 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/posts/view/1
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:38:38 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:38:38 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/posts/view/1
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:39:15 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakeAuth2/pages/home
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(PagesController))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(502): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(464): AuthComponent->constructAuthorize()
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(PagesController))
+#5 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#10 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /Users/dannyavery/Desktop/websites/cakeAuth2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-31 16:42:01 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakeAuth2/pages/home
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(PagesController))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(502): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(464): AuthComponent->constructAuthorize()
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(PagesController))
+#5 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#10 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /Users/dannyavery/Desktop/websites/cakeAuth2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-31 16:42:04 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:42:04 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:42:13 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:42:13 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/posts
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:42:40 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /cakeAuth2/posts/display/index
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 16:42:48 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /cakeAuth2/posts/display/index
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-31 16:43:45 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/AppController.php, line 66]
+2015-03-31 16:43:45 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 66, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 66, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:43:50 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/AppController.php, line 66]
+2015-03-31 16:43:50 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakeAuth2/posts
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 66, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 66, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:43:55 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/AppController.php, line 66]
+2015-03-31 16:43:55 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakeAuth2/users
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 66, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 66, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:44:00 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/AppController.php, line 66]
+2015-03-31 16:44:00 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakeAuth2/users/logout
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 66, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 66, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 16:45:01 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 16:45:01 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 23:18:01 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 23:18:01 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 23:18:38 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 23:18:38 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 23:18:44 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 23:18:44 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 23:19:04 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 23:19:04 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-31 23:19:17 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /cakeAuth2/pages/home
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(PagesController))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(502): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(464): AuthComponent->constructAuthorize()
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Component/AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(PagesController))
+#5 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#10 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /Users/dannyavery/Desktop/websites/cakeAuth2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-31 23:20:08 Error: Fatal Error (1): Call to undefined method AppController::isAuthorized() in [/Users/dannyavery/Desktop/websites/cakeAuth2/app/Controller/PostsController.php, line 20]
+2015-03-31 23:20:08 Error: [FatalErrorException] Call to undefined method AppController::isAuthorized()
+Request URL: /cakeAuth2/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 20, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:22:47 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-01 16:22:57 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-01 16:23:00 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-01 16:53:00 Error: Fatal Error (4): syntax error, unexpected ':' in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/View/Posts/index.ctp, line 12]
+2015-04-01 16:53:00 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 12, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 12, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:53:32 Error: Fatal Error (4): syntax error, unexpected ':' in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/View/Posts/index.ctp, line 12]
+2015-04-01 16:53:32 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 12, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 12, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:53:33 Error: Fatal Error (4): syntax error, unexpected ':' in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/View/Posts/index.ctp, line 12]
+2015-04-01 16:53:33 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 12, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 12, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:13:49 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-01 17:13:51 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-01 17:13:53 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-01 17:13:55 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-02 19:29:33 Error: [NotFoundException] Invalid user
+Request URL: /cakeAuth2WHO/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-02 19:30:48 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/UsersController.php, line 30]
+2015-04-02 19:30:48 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakeAuth2WHO/users/view
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 30, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 30, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-02 19:31:23 Error: [NotFoundException] Invalid user
+Request URL: /cakeAuth2WHO/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-02 21:03:16 Error: Fatal Error (1): Call to undefined method Controller::posts() in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/AppController.php, line 54]
+2015-04-02 21:03:16 Error: [FatalErrorException] Call to undefined method Controller::posts()
+Request URL: /cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/dannyave...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/dannyave...', 54, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/dannyave...', 54, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-02 21:08:42 Error: [NotFoundException] Invalid user
+Request URL: /cakeAuth2WHO/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-02 21:10:20 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /cakeAuth2WHO/users/users/add/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-02 21:12:21 Error: [NotFoundException] Invalid user
+Request URL: /cakeAuth2WHO/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-02 21:12:53 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /cakeAuth2WHO/users/users/add/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-02 21:14:09 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /cakeAuth2WHO/users/users/add/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-02 21:31:20 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/AppController.php, line 54]
+2015-04-02 21:31:20 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 54, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 54, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-02 21:50:39 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-02 22:03:58 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/logout
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-02 22:33:13 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-02 22:33:16 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-02 22:33:30 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-02 22:35:50 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-03 15:28:49 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 10]
+2015-04-03 15:28:49 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 10, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 10, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-03 15:29:05 Error: [MissingControllerException] Controller class EmployersController could not be found.
+Exception Attributes: array (
+  'class' => 'EmployersController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-03 20:20:51 Error: [MissingLayoutException] Layout file "Layouts/sidebarLayout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/sidebarLayout.ctp',
+)
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/View/View.php(514): View->_getLayoutFileName('sidebarLayout')
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/View/View.php(481): View->renderLayout('', 'sidebarLayout')
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EmployersController), Object(CakeRequest))
+#5 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-04-03 20:26:43 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/index
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-03 20:27:02 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-03 20:32:22 Error: [MissingActionException] Action EmployersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'EmployersController',
+  'action' => 'index',
+)
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EmployersController), Object(CakeRequest))
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-03 20:36:02 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-03 20:36:26 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-03 20:36:30 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-03 20:36:38 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-03 20:39:29 Error: Fatal Error (1): Call to a member function find() on null in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 11]
+2015-04-03 20:39:29 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dannyave...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dannyave...', 11, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dannyave...', 11, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-03 20:40:09 Error: Fatal Error (1): Call to a member function find() on null in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 11]
+2015-04-03 20:40:09 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dannyave...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dannyave...', 11, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dannyave...', 11, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-03 20:40:09 Error: Fatal Error (1): Call to a member function find() on null in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 11]
+2015-04-03 20:40:09 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dannyave...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dannyave...', 11, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dannyave...', 11, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-03 20:40:10 Error: Fatal Error (1): Call to a member function find() on null in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 11]
+2015-04-03 20:40:10 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dannyave...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dannyave...', 11, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dannyave...', 11, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-03 20:40:10 Error: Fatal Error (1): Call to a member function find() on null in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 11]
+2015-04-03 20:40:10 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dannyave...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dannyave...', 11, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dannyave...', 11, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-03 20:40:10 Error: Fatal Error (1): Call to a member function find() on null in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 11]
+2015-04-03 20:40:10 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dannyave...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dannyave...', 11, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dannyave...', 11, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-03 20:42:32 Error: Fatal Error (1): Call to a member function find() on null in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 10]
+2015-04-03 20:42:32 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dannyave...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dannyave...', 10, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dannyave...', 10, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-03 20:42:33 Error: Fatal Error (1): Call to a member function find() on null in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 10]
+2015-04-03 20:42:33 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dannyave...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dannyave...', 10, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dannyave...', 10, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-03 20:43:16 Error: Fatal Error (1): Call to a member function find() on null in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 10]
+2015-04-03 20:43:16 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dannyave...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dannyave...', 10, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dannyave...', 10, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-03 20:43:20 Error: Fatal Error (1): Call to a member function find() on null in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 10]
+2015-04-03 20:43:20 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dannyave...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dannyave...', 10, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dannyave...', 10, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-03 20:43:26 Error: Fatal Error (1): Call to a member function find() on null in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 10]
+2015-04-03 20:43:26 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dannyave...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dannyave...', 10, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dannyave...', 10, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-04 15:54:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/css/bootstrap.min.css
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-04 15:54:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/css/style.css
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-04 16:01:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/img/AIC.png
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-04 16:28:42 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY), expecting ')' in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/View/Elements/header.ctp, line 46]
+2015-04-04 16:28:42 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY), expecting ')'
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 46, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 46, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-04 16:29:05 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/View/Elements/header.ctp, line 46]
+2015-04-04 16:29:05 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/dannyave...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/dannyave...', 46, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/dannyave...', 46, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-04 18:57:39 Error: [MissingActionException] Action EmployersController::jobs() could not be found.
+Exception Attributes: array (
+  'controller' => 'EmployersController',
+  'action' => 'jobs',
+)
+Request URL: /cakeAuth2WHO/employers/jobs
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EmployersController), Object(CakeRequest))
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-04 18:58:01 Error: [MissingActionException] Action EmployersController::jobs() could not be found.
+Exception Attributes: array (
+  'controller' => 'EmployersController',
+  'action' => 'jobs',
+)
+Request URL: /cakeAuth2WHO/employers/jobs
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EmployersController), Object(CakeRequest))
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-04 19:01:12 Error: [MissingActionException] Action EmployersController::edit_jobs() could not be found.
+Exception Attributes: array (
+  'controller' => 'EmployersController',
+  'action' => 'edit_jobs',
+)
+Request URL: /cakeAuth2WHO/employers/edit_jobs
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EmployersController), Object(CakeRequest))
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-04 19:02:26 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-04 19:02:47 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-04 19:05:54 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-04 19:07:31 Error: [MissingControllerException] Controller class CakeAuth2WHOController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeAuth2WHOController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/cakeAuth2WHO/
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-04 19:24:10 Error: [MissingActionException] Action EmployersController::edit_jobs() could not be found.
+Exception Attributes: array (
+  'controller' => 'EmployersController',
+  'action' => 'edit_jobs',
+)
+Request URL: /cakeAuth2WHO/employers/edit_jobs
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EmployersController), Object(CakeRequest))
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-07 16:32:45 Error: Fatal Error (1): Call to a member function find() on null in [/Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/Controller/EmployersController.php, line 10]
+2015-04-07 16:32:45 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakeAuth2WHO/employers
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/dannyave...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/dannyave...', 10, Array)
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/dannyave...', 10, Array)
+#3 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-07 16:36:33 Error: [MissingActionException] Action EmployersController::employers() could not be found.
+Exception Attributes: array (
+  'controller' => 'EmployersController',
+  'action' => 'employers',
+)
+Request URL: /cakeAuth2WHO/employers/employers/edit
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EmployersController), Object(CakeRequest))
+#2 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-07 16:37:43 Error: [MissingControllerException] Controller class EditController could not be found.
+Exception Attributes: array (
+  'class' => 'EditController',
+  'plugin' => NULL,
+)
+Request URL: /cakeAuth2WHO/edit
+Stack Trace:
+#0 /Users/dannyavery/Desktop/websites/cakeAuth2WHO/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
